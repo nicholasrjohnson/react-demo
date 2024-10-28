@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 8080;
 const app = express();
 
 app.get("/api", (req, res) => {
-	res.json({ message: "Hello from Nick!" });
+	res.json({ message: "Hello from React App!" });
 });
 
 app.listen(PORT, () => {
