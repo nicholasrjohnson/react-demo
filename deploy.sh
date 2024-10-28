@@ -8,8 +8,14 @@ git pull origin master
 
 npm install
 
+cd ~/react-demo/client
+
+npm install
+
 export PATH=~/npm-global/bin:$PATH
 source ~/.profile
 
 pm2 restart app
 
+
+pm2 restart client 
